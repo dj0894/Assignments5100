@@ -139,9 +139,9 @@ class Employee {
          * Write your understanding of the reason and explain it.
          */
     /*
-
-    when we printed both objects a and b before and after swapping, hashcode of the object has not been swapped.
-    So we can conclude that in java when we are assigning one object to another, only reference is assigned not actual values.
+    In java when we pass parameters to methods it is passed by value not passed by reference. So when we swapped no change ocurred in result.For example when we 
+    printing both objects a and b before and after swapping, hashcode of the object has not been swapped.
+    So we can conclude that in java when we are assigning one object to another changes will be done in copy of parameters not in actual parameters.
 
     // if we want to swap only names then we can do it manually using below code in swap method.
             String temp1=x.name;
